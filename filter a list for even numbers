@@ -1,0 +1,14 @@
+
+lst= [2,5,3,8,2,4,63,44]
+
+# returns True if number is even
+def even(number):
+    return number%2==0
+
+# Extract elements from the numbers list for which even() returns True
+lst_1 = filter(even,lst)
+
+# converting to list
+lst_2 = list(lst_1)
+
+print(lst_2)
