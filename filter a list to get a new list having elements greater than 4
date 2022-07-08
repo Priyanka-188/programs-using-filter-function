@@ -1,0 +1,12 @@
+numbers = [ 3,6,6.6,4,6,33,85]
+
+# returns True if number is greater than 4
+def is_greater_4(num):
+    return num>4
+
+# Extract elements from the numbers list for which even() returns True
+greater_4 = filter (is_greater_4,numbers)
+
+# converting to list
+greater_4=list(greater_4)
+print(greater_4)
